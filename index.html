@@ -96,6 +96,19 @@
     <main id="main">
       <section class="hero">
         <div class="wrapper">
+          <picture>
+            <source
+              media="(min-width: 62.5em)"
+              srcset="./assets/images/profile_desktop.webp"
+            />
+
+            <source
+              media="(min-width: 37.5em)"
+              srcset="/assets/images/profile_tab.webp"
+            />
+            <img src="/assets/images/profile_mob.webp" alt="Picture of Jonas" />
+          </picture>
+
           <h1>Nice meeting you.</h1>
         </div>
       </section>
