@@ -95,8 +95,8 @@
 
     <main id="main">
       <section class="hero">
-        <div class="wrapper">
-          <picture>
+        <div class="hero__wrapper">
+          <picture class="hero__image">
             <source
               media="(min-width: 62.5em)"
               srcset="./assets/images/profile_desktop.webp"
@@ -106,16 +106,27 @@
               media="(min-width: 37.5em)"
               srcset="/assets/images/profile_tab.webp"
             />
-            <img src="/assets/images/profile_mob.webp" alt="Picture of Jonas" />
+            <img
+              src="/assets/images/profile_mob.webp"
+              alt="Picture of Jonas"
+              width="174"
+            />
           </picture>
 
-          <h1>Nice meeting you.</h1>
+          <div class="hero__text">
+            <h1 class="hero__headline">
+              Nice meeting you! I'm <span>Jonas Asare</span>.
+            </h1>
+            <p class="hero_description">
+              Based in the Kingdom of Morocco, I'm a front-end developer
+              passionate about building accesible web apps that users love.
+            </p>
+            <a href="" class="hero__contact underline">Contact me</a>
+          </div>
         </div>
       </section>
     </main>
     <footer class="footer"></footer>
-    AsareJonas Nice to meet you! I am <i>Jonas Asare</i>. Based in the Kingdom
-    of Morocco, I'm a front-end developer passionate about building accesible
-    web apps that users love.
+    <!-- AsareJonas Nice to meet you! I am <i>Jonas Asare</i>. -->
   </body>
 </html>
