@@ -65,6 +65,7 @@ p {
   font-size: clamp(1rem 0.79em + 0.889m, 1.124rem);
   line-height: 1.5;
   color: var(--text2);
+  margin-bottom: 24px;
 }
 
 body {
@@ -179,8 +180,8 @@ a:hover {
 }
 
 .hero__wrapper {
-  padding-bottom: 60px;
-  border-bottom: 1px solid red;
+  padding-bottom: 80px;
+  border-bottom: 1px solid var(--text2);
 }
 
 .hero__image {
@@ -190,6 +191,16 @@ a:hover {
   translate: -50%;
   /* outline: 2px solid red; */
   display: block;
+}
+
+.hero__rings {
+}
+
+.hero__circle {
+  position: absolute;
+  top: 310px;
+  right: 0;
+  translate: 50%;
 }
 
 .hero__text {
