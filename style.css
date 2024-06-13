@@ -183,3 +183,7 @@ svg {
 .header__social > svg > path {
   transition: fill var(--transition);
 }
+
+.header__social:hover > svg > path {
+  fill: var(--accent);
+}
