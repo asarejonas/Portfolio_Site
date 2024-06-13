@@ -141,3 +141,10 @@ svg {
   max-width: var(--container);
   margin-inline: auto;
 }
+
+/* 600px */
+@media (min-width: 37.5em) {
+  .wrapper {
+    width: calc(100% - 3.75rem);
+  }
+}
