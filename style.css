@@ -148,3 +148,9 @@ svg {
     width: calc(100% - 3.75rem);
   }
 }
+
+/* UTILITY */
+
+.bottom-border {
+  border-bottom: 1px solid var(--text2);
+}
