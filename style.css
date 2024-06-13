@@ -187,3 +187,22 @@ svg {
 .header__social:hover > svg > path {
   fill: var(--accent);
 }
+
+@media (min-width: 37.5em) {
+  .header {
+    margin-block-start: 30px;
+    /* margin-block-end: 90px; */
+  }
+
+  .header__nav {
+    justify-content: flex-start;
+    align-items: center;
+    text-align: left;
+    gap: 32px;
+  }
+
+  .header__home {
+    flex: 0 1 auto;
+    margin-inline-end: auto;
+  }
+}
