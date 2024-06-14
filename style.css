@@ -249,3 +249,17 @@ svg {
   margin-bottom: -129px;
   translate: calc(100vw - 64px - 16px);
 }
+
+.hero__text {
+  position: relative;
+  text-align: center;
+  margin-block-start: 335px;
+}
+
+.hero__headline {
+  margin-block-end: 24px;
+}
+
+.hero__headline > br {
+  display: none;
+}
