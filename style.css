@@ -206,3 +206,14 @@ svg {
     margin-inline-end: auto;
   }
 }
+
+@media (min-width: 62.5em) {
+  .header {
+    margin-block-start: 40px;
+    margin-block-end: 127px;
+  }
+
+  .header__nav {
+    padding-right: 30px;
+  }
+}
