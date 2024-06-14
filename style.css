@@ -217,3 +217,18 @@ svg {
     padding-right: 30px;
   }
 }
+
+/*  HERO */
+
+.hero__wrapper {
+  padding-bottom: 80px;
+}
+
+.hero__image {
+  position: absolute;
+  top: 0;
+  left: 50%;
+  translate: -50%;
+  width: 174px;
+  height: auto;
+}
