@@ -347,3 +347,55 @@ h1 > span {
     margin-block-end: 34px;
   }
 }
+
+@media (min-width: 62.5em) {
+  .hero {
+    margin-block-start: 0px;
+  }
+
+  .hero__wrapper {
+    position: relative;
+    padding-bottom: 100px;
+  }
+
+  .hero__content {
+    align-items: flex-start;
+  }
+
+  .hero__content picture {
+    margin-left: -80px;
+  }
+
+  .hero__image {
+    margin-block-start: -199px;
+  }
+
+  .hero__rings {
+    top: 0px;
+    translate: -50% -50%;
+  }
+
+  .hero__circle {
+    top: 322px;
+    right: 445px;
+  }
+
+  .hero__text {
+    margin-block-start: 0;
+    margin-right: 0;
+    flex: 1;
+  }
+
+  .hero__headline {
+    margin-block-end: 43px;
+  }
+
+  .hero__headline > br {
+    display: none;
+  }
+
+  .hero__description {
+    width: 38ch;
+    margin-block-end: 66px;
+  }
+}
