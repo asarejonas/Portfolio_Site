@@ -399,3 +399,35 @@ h1 > span {
     margin-block-end: 66px;
   }
 }
+
+/* SKILLS */
+
+.skills {
+  position: relative;
+  margin-bottom: 50px;
+}
+
+.my__skills {
+  /*display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  */
+
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  flex-direction: space between;
+  gap: 100px 150px;
+  /* border-bottom: 2px solid var(--text1); */
+}
+
+.my__skill__header {
+  text-align: center;
+  margin-top: 3.2rem;
+}
+
+.skills__wrapper {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 24px;
+  padding-block: 40px;
+}
