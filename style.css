@@ -466,3 +466,16 @@ h1 > span {
     translate: 40% 50%;
   }
 }
+
+@media (min-width: 62.5em) {
+  .skills__wrapper {
+    grid-template-columns: repeat(3, 1fr);
+    gap: 58px 30px;
+    padding-block-start: 72px;
+  }
+
+  .skills__rings {
+    translate: -40% 50%;
+    left: 100%;
+  }
+}
