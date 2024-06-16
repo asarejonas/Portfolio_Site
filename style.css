@@ -449,3 +449,20 @@ h1 > span {
   left: 50%;
   translate: 0 50%;
 }
+
+@media (min-width: 37.5em) {
+  .skills__wrapper {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 52px 24px;
+    border: none;
+    padding-block: 52px 0;
+  }
+
+  .skills__item {
+    text-align: left;
+  }
+
+  .skills__rings {
+    translate: 40% 50%;
+  }
+}
