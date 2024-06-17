@@ -479,3 +479,41 @@ h1 > span {
     left: 100%;
   }
 }
+
+/* PROJECTS */
+
+.projects__wrapper {
+  padding-block: 140px;
+  border-top: 1px solid var(--text1);
+}
+
+.projects__grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 40px;
+  justify-items: center;
+  text-align: center;
+}
+
+.projects__headline {
+  grid-column: 1 / span 2;
+  margin-block-end: 0;
+}
+
+.projects__contact {
+  grid-column: 1 / span 2;
+}
+
+.projects__item {
+  grid-column: 1 / span 2;
+}
+
+.projects__picture {
+  display: block;
+  margin-block-end: 20px;
+}
+
+.projects__image {
+  width: 100%;
+  height: auto;
+}
