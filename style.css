@@ -540,3 +540,45 @@ h1 > span {
   align-items: center;
   gap: 20px;
 }
+
+@media (min-width: 37.5em) {
+  .projects__grid {
+    gap: 60px 24px;
+    justify-items: start;
+    text-align: left;
+  }
+
+  .projects__contact {
+    justify-self: end;
+  }
+
+  .projects__item {
+    grid-column: span 1;
+  }
+
+  .projects__headline,
+  .projects__contact {
+    grid-column: span 1;
+  }
+
+  .projects__contact {
+    align-self: center;
+  }
+
+  .projects__tags,
+  .projects__links {
+    display: block;
+  }
+
+  .projects__tags span {
+    margin-inline-end: 18px;
+  }
+
+  .projects__links a {
+    margin-inline-end: 30px;
+  }
+
+  .project__links {
+    display: block;
+  }
+}
