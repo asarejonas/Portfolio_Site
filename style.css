@@ -701,3 +701,13 @@ h1 > span {
   background-color: transparent;
   border: none;
 }
+
+.contact__invalid-icon {
+  display: none;
+  width: var(--fs-24);
+  height: var(--fs-24);
+  position: absolute;
+  top: 50%;
+  right: 0;
+  translate: -50% -50%;
+}
