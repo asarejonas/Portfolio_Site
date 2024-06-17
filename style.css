@@ -711,3 +711,14 @@ h1 > span {
   right: 0;
   translate: -50% -50%;
 }
+
+.contact input:focus-visible:invalid ~ .contact__invalid-icon,
+.contact textarea:focus-visible:invalid ~ .contact__invalid-icon {
+  display: inline-block;
+}
+
+.contact textarea:focus-visible:invalid ~ .contact__invalid-icon {
+  top: 1.2rem;
+  right: 1.5rem;
+  translate: none;
+}
