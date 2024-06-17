@@ -722,3 +722,10 @@ h1 > span {
   right: 1.5rem;
   translate: none;
 }
+
+.contact__rings {
+  position: absolute;
+  left: 0;
+  bottom: 97px;
+  translate: -75%;
+}
