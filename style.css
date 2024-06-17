@@ -736,3 +736,19 @@ h1 > span {
     translate: -75%;
   }
 }
+
+@media (min-width: 62.5em) {
+  .contact__wrapper {
+    display: grid;
+    grid-template-columns: repeat(2, 27.8rem);
+    justify-content: space-between;
+  }
+
+  .contact__headline {
+    margin-block-end: var(--fs-36);
+  }
+
+  .contact__rings {
+    translate: -40%;
+  }
+}
