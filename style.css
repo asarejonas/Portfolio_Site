@@ -729,3 +729,10 @@ h1 > span {
   bottom: 97px;
   translate: -75%;
 }
+
+@media (min-width: 37.5em) {
+  .contact__rings {
+    bottom: 47px;
+    translate: -75%;
+  }
+}
