@@ -763,3 +763,7 @@ h1 > span {
     text-align: center;
   }
 }
+
+footer {
+  padding-block: 40px 60px;
+}
