@@ -767,3 +767,9 @@ h1 > span {
 footer {
   padding-block: 40px 60px;
 }
+
+@media (min-width: 37.5em) {
+  footer {
+    padding-block: 30px 40px;
+  }
+}
