@@ -1,4 +1,5 @@
-* GLOBAL */ :root {
+/* GLOBAL */
+:root {
   --bg-body: hsl(0, 0%, 8%);
   --bg-body2: hsl(0, 0%, 14%);
   --accent: hsl(153, 71%, 59%);
