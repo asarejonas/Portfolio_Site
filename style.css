@@ -773,3 +773,9 @@ footer {
     padding-block: 30px 40px;
   }
 }
+
+@media (min-width: 37.5em) {
+  footer {
+    padding-block: 30px 40px;
+  }
+}
